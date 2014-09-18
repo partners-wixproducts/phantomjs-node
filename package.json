@@ -6,7 +6,7 @@
   "version": "0.6.5",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sgentle/phantomjs-node.git"
+    "url": "git@github.com:wix/phantomjs-node.git"
   },
   "contributors": [
     {
