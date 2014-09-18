@@ -5413,12 +5413,13 @@ require.define("/shim.coffee", function (require, module, exports, __dirname, __
   var __slice = Array.prototype.slice, __hasProp = Object.prototype.hasOwnProperty;
 
   webpage = core_require('webpage');
+  var system = core_require('system');
 
   shoe = require('shoe');
 
   dnode = require('dnode');
 
-  port = phantom.args[0];
+  port = system.args[1];
 
   fnwrap = function(target) {
     return function() {
