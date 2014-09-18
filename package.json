@@ -1,5 +1,5 @@
 {
-  "name": "phantomjs-node",
+  "name": "phantom",
   "version": "0.0.0",
   "description": "this is fork of phantomjs-node wrapper",
   "main": "phantom.js",
