@@ -1,44 +1,37 @@
 {
-  "author": "Sam Gentle <sam@samgentle.com>",
-  "name": "phantom",
-  "description": "PhantomJS wrapper for Node",
-  "homepage": "https://github.com/sgentle/phantomjs-node",
-  "version": "0.6.5",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:wix/phantomjs-node.git"
-  },
-  "contributors": [
-    {
-      "name": "Amir Raminfar",
-      "email": "findamir@gmail.com"
-    }
-  ],
+  "name": "phantomjs-node",
+  "version": "0.0.0",
+  "description": "this is fork of phantomjs-node wrapper",
   "main": "phantom.js",
-  "engines": {
-    "node": ">=v0.8.0"
+  "directories": {
+    "test": "test"
   },
   "dependencies": {
+    "bluebird": "~1.2.4",
+    "browserify": "~1.10.9",
     "dnode": "~1.2.0",
-    "shoe": "~0.0.10",
-    "win-spawn": "~2.0.0",
-    "traverse": "~0.6.3"
+    "express": "~3.2.5",
+    "phantomjs": "~1.9.9",
+    "ps-tree": "~0.0.3",
+    "temp": "~0.4.0",
+    "shoe": "~0.0.15",
+    "vows": "~0.7.0",
+    "traverse": "~0.6.6",
+    "win-spawn": "~2.0.0"
   },
   "devDependencies": {
-    "browserify": "1.10.9",
-    "coffee-script": "~1.7.1",
-    "express": "3.2.5",
-    "temp": "~0.4.0",
-    "ps-tree": "~0.0.2",
-    "vows": "~0.7.0",
-    "bluebird": "~1.2.3",
-    "phantomjs": "~1.9.7-5"
-  },
-  "licenses": {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
+    "coffee-script": "~1.7.1"
   },
   "scripts": {
-    "test": "cake test"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wix/phantomjs-node.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/wix/phantomjs-node/issues"
   }
 }
